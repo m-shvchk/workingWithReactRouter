@@ -24,7 +24,7 @@ function App() {
             <ProductDetail />
           </Route>
         </Switch> 
-        {/* Switch component ensures only on route (first in line) is active while several routes 
+        {/* Switch component ensures only one route (first in line) is active while several routes 
         could have the same path. 'exact' prop ensures the route is active only if the path is 
         exactly matched */}
       </main>
